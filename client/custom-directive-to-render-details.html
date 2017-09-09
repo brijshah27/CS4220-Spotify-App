@@ -1,0 +1,9 @@
+<div class="row">
+   <div class="show-name col-md-2"> {{name}}'s albums:</div>
+   <img src="http://www.image-sensors.com/app_/responsive/SmithersMultiEvent/media/Examples/male-placeholder.png?w=240" ng-src="{{imgS}}"/></br></br>
+</div>
+<div ng-repeat="detail in details">
+  <b>( {{$index+1}} ) {{detail.name}}</b></br>
+  <img src="http://www.image-sensors.com/app_/responsive/SmithersMultiEvent/media/Examples/male-placeholder.png?w=240" ng-src="{{detail.images[2].url}}"/></br></br>
+</div>
+</div>
